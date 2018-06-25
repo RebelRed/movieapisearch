@@ -83,7 +83,7 @@ function getMoviesByID(searchID){
         let Err = response
         let output = `<div class="col-sm-12 col-md-6 col-lg-4 col-xs-12">
         <div class="card" style="width: 22rem; margin: 3%;">
-          <img class="card-img-top" src="./noimagem.jpg" alt="Card image cap">
+          <img class="card-img-top" src="noimagem.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">${Err.Error}</h5>
           </div>
@@ -142,7 +142,7 @@ function getMovies(searchText, searchYear){
         let Err = response
         let output = `<div class="col-sm-12 col-md-6 col-lg-4 col-xs-12">
         <div class="card" style="width: 22rem; margin: 3%;">
-          <img class="card-img-top" src="./noimagem.jpg" alt="Card image cap">
+          <img class="card-img-top" src="noimagem.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">${Err.Error}</h5>
           </div>
