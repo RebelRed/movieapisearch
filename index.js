@@ -57,7 +57,7 @@ function getMovies(searchText, searchYear){
   $.ajax({
     type: 'GET',
     dataType: 'json',
-    async: false,
+    async: true,
     url:'http://www.omdbapi.com/?s='+searchText+'&y='+searchYear+'&apikey=460ecbb6',
 
     success: (response) => {
